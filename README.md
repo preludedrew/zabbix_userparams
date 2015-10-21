@@ -34,4 +34,6 @@ UnsafeUserParameters=1
 zabbix ALL=(ALL) NOPASSWD: /opt/zabbix/bin/disk_info.p
 zabbix ALL=(ALL) NOPASSWD: /opt/zabbix/bin/3ware_ctl_discovery.py
 zabbix ALL=(ALL) NOPASSWD: /opt/zabbix/bin/3ware_info.py
+zabbix ALL=(ALL) NOPASSWD: /opt/zabbix/bin/3ware_unit_discovery.py
+zabbix ALL=(ALL) NOPASSWD: /opt/zabbix/bin/3ware_unit_info.py
 ```
